@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.A2_MovieList">
+
+    <item android:id="@+id/action_favorites"
+        android:title="favorties"
+        android:icon="@drawable/favorites"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/action_search"
+        android:title="Search"
+        android:icon="@drawable/button_search"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/action_contact"
+        android:title="Contact"
+        android:icon="@drawable/button_contact"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"/>
+
+</menu>

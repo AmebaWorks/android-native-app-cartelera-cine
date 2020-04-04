@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/image_perfil"
+            android:layout_width="match_parent"
+            android:layout_height="194dp"
+            android:src="@drawable/perfil" />
+
+        <TextView
+            android:id="@+id/description_Contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title" />
+
+        <Button
+            android:id="@+id/buttonCall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="call"
+            android:text="Call"/>
+
+        <Button
+            android:id="@+id/buttonSend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="sendEmail"
+            android:text="Send"/>
+
+        <Button
+            android:id="@+id/buttonOpen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goURL"
+            android:text="Open" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
